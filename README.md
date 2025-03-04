@@ -1,11 +1,11 @@
 # CNN-SVM-Medicinal-Leaf-Identification
 This repository implements a hybrid SVM-CNN model for medicinal leaf identification, combining the strengths of Convolutional Neural Networks (CNN) for feature extraction and Support Vector Machines (SVM) for classification.
 #  Methodology
-### Feature Extraction using CNN
+### 1.Feature Extraction using CNN
 A pretrained CNN model extracts deep features from leaf images.    
-### Feature Flattening & Dimensionality Reduction  
+### 2.Feature Flattening & Dimensionality Reduction  
 Extracted features are flattened and optionally reduced using PCA (Principal Component Analysis)  
-### Classification using SVM
+### 3.Classification using SVM
 The processed features are fed into an SVM classifier for final classification.  
 # Dataset
 The dataset consists of segmented medicinal leaf images:https://www.kaggle.com/datasets/riteshranjansaroj/segmented-medicinal-leaf-images  
